@@ -60,7 +60,6 @@ h3, h2 {
 
 .asciiland{
   width: 90%
-
 }
 
 .upload-video-button:hover {
@@ -175,7 +174,7 @@ h3, h2 {
     .audio_player {
       position: absolute;
       top: -999em;
-      {
+    }
 
 .choose-file-button:hover {
   color: #d1132c;
