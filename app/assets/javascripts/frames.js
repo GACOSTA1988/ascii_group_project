@@ -1,6 +1,55 @@
 setTimeout(function() {
-    $("#frame1","#frame2","#frame3","#frame4","#frame5","#frame6","#frame7","#frame8","#frame9","#frame10","#frame11","#frame12","#frame13","#frame14","#frame15", "#frame16", "#frame17", "#frame18", "#frame19", "#frame20", "#frame21", "#frame22", "#frame23", "#frame24", "#frame25", "#frame26", "#frame27", "#frame28", "#frame29", "#frame30", "#frame31", "#frame33", "#frame34", "#frame35", "#frame36", "#frame37", "#frame38", "#frame39", "#frame40", "#frame41", "#frame42", "#frame43", "#frame44", "#frame45", "#frame46", "#frame47", "#frame48", "#frame49", "#frame50").css('display', 'none');
-  },250);
+  $("#frame1").css('display', 'block');
+  $("#frame2").css('display', 'none');
+  $("#frame3").css('display', 'none');
+  $("#frame4").css('display', 'none');
+  $("#frame5").css('display', 'none');
+  $("#frame6").css('display', 'none');
+  $("#frame7").css('display', 'none');
+  $("#frame8").css('display', 'none');
+  $("#frame9").css('display', 'none');
+  $("#frame10").css('display', 'none');
+  $("#frame11").css('display', 'none');
+  $("#frame12").css('display', 'none');
+  $("#frame13").css('display', 'none');
+  $("#frame14").css('display', 'none');
+  $("#frame15").css('display', 'none');
+  $("#frame16").css('display', 'none');
+  $("#frame17").css('display', 'none');
+  $("#frame18").css('display', 'none');
+  $("#frame19").css('display', 'none');
+  $("#frame20").css('display', 'none');
+  $("#frame21").css('display', 'none');
+  $("#frame22").css('display', 'none');
+  $("#frame23").css('display', 'none');
+  $("#frame24").css('display', 'none');
+  $("#frame25").css('display', 'none');
+  $("#frame26").css('display', 'none');
+  $("#frame27").css('display', 'none');
+  $("#frame28").css('display', 'none');
+  $("#frame29").css('display', 'none');
+  $("#frame30").css('display', 'none');
+  $("#frame31").css('display', 'none');
+  $("#frame32").css('display', 'none');
+  $("#frame33").css('display', 'none');
+  $("#frame34").css('display', 'none');
+  $("#frame35").css('display', 'none');
+  $("#frame36").css('display', 'none');
+  $("#frame37").css('display', 'none');
+  $("#frame38").css('display', 'none');
+  $("#frame39").css('display', 'none');
+  $("#frame40").css('display', 'none');
+  $("#frame41").css('display', 'none');
+  $("#frame42").css('display', 'none');
+  $("#frame43").css('display', 'none');
+  $("#frame44").css('display', 'none');
+  $("#frame45").css('display', 'none');
+  $("#frame46").css('display', 'none');
+  $("#frame47").css('display', 'none');
+  $("#frame48").css('display', 'none');
+  $("#frame49").css('display', 'none');
+  $("#frame50").css('display', 'none');
+},100);
   setTimeout(function() {
     $("#frame1").css('display', 'none');
     $("#frame2").css('display', 'block');
@@ -110,6 +159,10 @@ setTimeout(function() {
     $("#frame28").css('display', 'block');
   },7000);
   setTimeout(function() {
+    $("#frame28").css('display', 'none');
+    $("#frame29").css('display', 'block');
+  },7200);
+  setTimeout(function() {
     $("#frame29").css('display', 'none');
     $("#frame30").css('display', 'block');
   },7250);
@@ -184,11 +237,12 @@ setTimeout(function() {
   setTimeout(function() {
     $("#frame47").css('display', 'none');
     $("#frame48").css('display', 'block');
-  },12750);
+  },12600);
+  setTimeout(function() {
+  $("#frame48").css('display', 'none');
+  $("#frame49").css('display', 'block');
+},12750);
   setTimeout(function() {
     $("#frame49").css('display', 'none');
     $("#frame50").css('display', 'block');
   },13000);
-  setTimeout(function() {
-    $("#frame50").css('display', 'none');;
-  },13250);
